@@ -1,0 +1,341 @@
+.item > img {
+  width: 98rem !important;
+  height: 43.5rem !important;
+  border-radius: 0.5rem;
+}
+.carousel-control {
+  border-radius: 0.5rem;
+}
+.spanCustomDesign {
+  background: #f5f5f56b;
+  color: white;
+  border-radius: 3rem;
+}
+.slider__container {
+  margin-top: 2rem;
+}
+
+a.sliderLeft__img > img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.sliderLeft__content.row {
+  margin-top: 2rem;
+}
+.recommended__title {
+  display: flex;
+  align-items: center;
+  padding: 1.2rem;
+  margin-top: 2rem;
+  background: #016c90
+    url(https://res.cloudinary.com/staging-konga-com/image/upload/f_auto,q_auto/assets/images/homepage/category_icons.png)
+    no-repeat;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+
+.recommended__title h3 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-right: 4rem;
+  letter-spacing: 0.1rem;
+}
+
+.recommended__title a {
+  color: #dbb300;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.recommendedImg > img {
+  width: 12rem;
+}
+.recommended__items__details {
+  padding: 0rem 2rem;
+}
+.recommended__content {
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 13px -8px black;
+  margin: 1.5rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  transform: scale(1);
+}
+.recommended__container {
+  background: #fff;
+  padding: 0rem 1.5rem;
+}
+
+.recommended__items__details > p:first-child {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.01rem;
+}
+.recommended__content:hover {
+  box-shadow: 0px 0px 20px -8px black;
+  transform: scale(1.02);
+}
+.recommended__Items.col-md-4.col-sm-6.col-12 {
+  padding: 0rem;
+}
+.recommended__items__details > span {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+span.discountPrice {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  text-decoration: line-through;
+  color: #ff3c3c;
+}
+
+p.youSaveP {
+  color: green;
+}
+
+img.some_row_image {
+  width: 21rem;
+  cursor: pointer;
+}
+.some_image_section {
+  background: #fff;
+  margin-top: 2rem;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+}
+.sponsoredItemSection {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 38rem;
+  width: 29rem;
+}
+
+.recommendedImg {
+  text-align: center;
+}
+span.percentOffText {
+  position: absolute;
+  top: 0.5rem;
+  left: 0rem;
+  background: #ff3c3c;
+  font-size: 1rem;
+  color: #fff;
+  padding: 1rem 1rem;
+  border-radius: 0rem 2rem 2rem 0rem;
+}
+.sponsoredItemSection__img > img {
+  width: 20rem;
+  height: 20rem;
+}
+img.simpleProductBannerImg {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border-radius: 0.5rem;
+}
+.productSimpleBannerWrapper {
+  margin-top: 2rem;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+.PopularCategoriesWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #fff;
+}
+
+.PopularCategoriesBackImgDiv {
+  max-width: 100%;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+.PopularCategoriesBackImgDiv > img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+.PopularCategoriesBackImgDiv > h3 {
+  font-size: 1.6rem;
+  text-align: center;
+  position: absolute;
+  bottom: 1rem;
+  left: 10%;
+  color: #dedede;
+  font-weight: 600;
+}
+
+.PopularCategoriesFrontDiv {
+  background: #f5f5f5;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease;
+  transform-origin: top;
+  transform: scaleY(0);
+}
+
+.PopularCategoriesFrontDiv > h3 {
+  font-size: 1.8rem;
+  padding: 2rem;
+  background: #000a;
+  color: #fff;
+}
+
+.PopularCategoriesFrontDiv > ul > li {
+  list-style: none;
+  padding: 1.2rem 2rem;
+}
+
+.PopularCategoriesFrontDiv > ul {
+  margin: 0;
+}
+
+.PopularCategoriesFrontDiv > ul > li > a {
+  padding: 1.2rem 9rem 1.2rem 0rem;
+  color: #000;
+  font-size: 1.3rem;
+}
+
+.PopularCategoriesFrontDiv > ul > li:hover {
+  background: #03bfff;
+}
+
+.PopularCategoriesFrontDiv > ul > li:hover a {
+  color: #ffffff;
+}
+
+.wrappedPopularCategory {
+  cursor: pointer;
+  position: relative;
+  max-width: 280px;
+  width: 280px;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+}
+
+.wrappedPopularCategory1:hover .PopularCategory1 {
+  transform: scaleY(1);
+}
+.wrappedPopularCategory2:hover .PopularCategory2 {
+  transform: scaleY(1);
+}
+.wrappedPopularCategory3:hover .PopularCategory3 {
+  transform: scale(1);
+}
+.wrappedPopularCategory4:hover .PopularCategory4 {
+  transform: scaleY(1);
+}
+.wrappedPopularCategory5:hover .PopularCategory5 {
+  transform: scaleY(1);
+}
+.wrappedPopularCategory6:hover .PopularCategory6 {
+  transform: scaleY(1);
+}
+.wrappedPopularCategory7:hover .PopularCategory7 {
+  transform: scaleY(1);
+}
+.wrappedPopularCategory8:hover .PopularCategory8 {
+  transform: scaleY(1);
+}
+.twoBannersDiv {
+  margin-top: 2rem;
+  background: #fff;
+  text-align: center;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+}
+
+.twobanner.col-md-6.col-12 > img {
+  border-radius: 0.5rem;
+  max-width: 100%;
+}
+.shopNowfitnessDiv {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  background: #fff;
+  cursor: pointer;
+}
+
+.shopNowfitnessDiv > img {
+  max-width: 100%;
+  text-align: center;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.shopNowfitDivContent {
+  padding: 2rem;
+}
+
+.shopNowfitDivContent > h4 {
+  font-weight: 600;
+  color: #696969;
+  padding-bottom: 2.5rem;
+}
+
+.shopNowfitDivContent > p {
+  font-size: 1.3rem;
+  margin-bottom: 2.5rem;
+}
+
+.shopNowfitDivContent > a {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #02bfff;
+}
+
+.shopNowfitnessProductsDiv {
+  margin-top: 2rem;
+}
+.brandsImg.col-md-2.col-sm-4.col-12 > img {
+  max-width: 100%;
+  border-right: 1px solid #f5f5f5;
+  border-bottom: 1px solid #f5f5f5;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  transform: scale(1);
+  padding: 1.8rem 0rem;
+  background: #fff;
+}
+
+.brandsImg.col-md-2.col-sm-4.col-12 {
+  padding: 0;
+}
+.row.brandsImgRow {
+  margin: 0;
+}
+.brandsImgWrapper {
+  margin-top: 2rem;
+}
+
+.brandsImg.col-md-2.col-sm-4.col-12 > img:hover {
+  transform: scale(0.95);
+}
+.homepageDescription {
+  text-align: justify;
+  background: #fff;
+  margin-top: 2rem;
+  padding: 2.5rem;
+  border-radius: 0.5rem;
+}
+
+.homepageDescription > h3 {
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #02bfff;
+  letter-spacing: 0.1rem;
+}

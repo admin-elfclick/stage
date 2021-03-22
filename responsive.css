@@ -1,0 +1,86 @@
+/* MAX-WIDTH 1445PX */
+@media (max-width: 1445px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  .nav__container {
+    width: 100%;
+    max-width: 100%;
+  }
+  .nav {
+    display: none;
+  }
+}
+
+/* MAX-WIDTH 1200PX */
+@media (max-width: 1200px) {
+  .sponsoredItemSection {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* MAX-WIDTH 1430PX */
+@media (max-width: 1430px) {
+  .PopularCategoriesWrapper {
+    justify-content: center;
+  }
+}
+
+/* MIN-WIDTH 500PX AND MAX-WIDTH 768PX */
+@media (min-width: 500px) and (max-width: 768px) {
+  a.sliderLeft__img > img {
+    width: 60%;
+    max-width: 60%;
+  }
+}
+
+/* MAX-WIDTH 768PX */
+@media (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+  .sponsoredItemSection {
+    width: 100%;
+    height: auto;
+  }
+  .recommended__content {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  img.some_row_image {
+    max-width: 57%;
+    width: 40rem;
+    margin-bottom: 1rem;
+  }
+  .shopNowfitnessDiv {
+    padding-top: 1rem;
+  }
+  .brandsImg.col-md-2.col-sm-4.col-12 > img {
+    max-width: 70%;
+  }
+  a.sliderLeft__img > img {
+    margin-bottom: 1rem;
+  }
+}
+
+/* MAX-WIDTH 500PX */
+@media (max-width: 500px) {
+  .item > img {
+    height: 24.5rem !important;
+  }
+}
+
+/* MAX-WIDTH 993PX */
+@media (max-width: 993px) {
+  .shopNowfitnessDiv {
+    margin-bottom: 1rem;
+  }
+  .footerTop__content {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+}

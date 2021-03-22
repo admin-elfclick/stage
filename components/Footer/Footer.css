@@ -1,0 +1,128 @@
+.footerTop {
+  background: #026d90;
+  color: white;
+  margin-top: 2rem;
+}
+
+.footerTopContentFlex {
+  display: flex;
+  align-items: center;
+}
+
+.footerTopContentFlex > i {
+  background: white;
+  color: black;
+  padding: 1.5rem;
+  border-radius: 2.5rem;
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+
+.footerTop__content__wrapper {
+  padding: 1.5rem 0rem;
+}
+
+.emailContent > h4 {
+  color: #ababab;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.emailContent > p {
+  color: #ddd;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+
+h4 {
+}
+
+.footerTop__content.col-md-3.col-12 > h4 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #ababab;
+}
+
+.footerTop__content.col-md-3.col-12 > p {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  color: #ddd;
+}
+
+.footerTopInput {
+  display: flex;
+  flex-direction: row;
+}
+
+.footerTopInput > input {
+  border: none;
+  padding: 1.5rem;
+  outline: none;
+  width: 100%;
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+
+.footerTopInput > button {
+  background: #ff3c3c;
+  padding: 1.5rem 2rem;
+  border: navajowhite;
+  outline: none;
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
+}
+.appImg > a > img {
+  width: 6rem;
+  height: 6rem;
+  margin-right: 3rem;
+}
+
+footer.Footer {
+  background: #1f1f1f;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.footerContent > h5 {
+  color: #f5f5f5;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.footerContent > ul > li {
+  list-style: none;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+.footerContent > ul > li > a {
+  color: grey;
+  transition: all 0.5s ease;
+}
+
+.footerContent > ul > li > a:hover {
+  color: #026d90;
+}
+
+.socialIcons > i {
+  padding: 1.5rem;
+  background: #f5f5f5;
+  color: #026d90;
+  font-size: 1.8rem;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.socialIcons > i:hover {
+  background: #2196f3;
+  color: #fff;
+}
+.copyrightSection {
+  background: #191919;
+  color: #5d5d5d;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
