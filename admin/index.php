@@ -1,3 +1,9 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['AdminLoginId'])){
+        header("location: login");
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,9 +16,19 @@
 <body>
     <div>
         <center>
-            <h1>Admin Panel is under Development.</h1>
+            <h1>Welcome to ELF-click Admin Panel - <?php echo $_SESSION['AdminLoginId']?></h1>
+            <h1 style="background:orange;color:#fff;">Admin Panel is under Development.</h1><br/>
+            <form method="POST">
+                <button name="Logout">Logout</button>
+            </form>
         </center>
-        <?php require('dbconnection.php') ?>
     </div>
+<?php
+if(isset($_POST['Logout'])){
+    session_destroy();
+    header("location: login");
+}
+?>
+
 </body>
 </html>

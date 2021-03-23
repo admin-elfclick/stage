@@ -1,9 +1,4 @@
-<?php 
-
-require('../dbconnection.php');
-
-?>
-
+<?php require('../dbconnection.php');?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,7 +31,7 @@ require('../dbconnection.php');
 					<img src="images/img-01.png" alt="IMG">
 				</div>
 
-				<form class="login100-form validate-form">
+				<form method="POST" class="login100-form validate-form">
 					<span class="login100-form-title">
 						Admin Login
 					</span>
@@ -73,10 +68,19 @@ require('../dbconnection.php');
 			</div>
 		</div>
 	</div>
-	
-	
-
-	
+<?php
+if(isset($_POST['Signin'])){
+	$query="SELECT * FROM `admin_login` WHERE `Admin_Name`='$_POST[AdminName]' AND `Admin_Password`='$_POST[AdminPassword]'";
+	$result=mysqli_query($mysqli,$query);
+	if(mysqli_num_rows($result)==1){
+		session_start();
+		$_SESSION['AdminLoginId']=$_POST['AdminName'];
+		header("location: ../index.php");
+	}else{
+		echo "<script>alert('Incorrect Admin Name or Password');</script>";
+	}
+}
+?>	
 <!--===============================================================================================-->	
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
