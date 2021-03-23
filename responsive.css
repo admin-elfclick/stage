@@ -1,4 +1,7 @@
+/* All the responsive codes have been written here */
+
 /* MAX-WIDTH 1445PX */
+
 @media (max-width: 1445px) {
   .container {
     width: 100%;

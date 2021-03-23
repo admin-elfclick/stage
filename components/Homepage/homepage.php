@@ -34,6 +34,8 @@
     </a>
     </div>
   </div>
+
+  
   <div class="animate__animated animate__fadeInRight sliderLeft__container col-md-4 col-sm-4 col-xs-12">
       <div class="sliderLeft__content row">
           <div class="col-md-6 col-sm-6 col-xs-12">
