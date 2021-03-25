@@ -29,6 +29,5 @@ if(isset($_POST['Logout'])){
     header("location: login");
 }
 ?>
-
 </body>
 </html>
