@@ -1,38 +1,38 @@
 <section class="nav__container row">
   <div class="animate__animated animate__fadeInLeft slider__container col-md-8 col-sm-8 col-xs-12">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-        <div class="item active">
-            <img src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/v1615813946/contentservice/banner7.jpg_SJfBaAn7_.jpg" alt="Chania">
-        </div>
-
-        <div class="item">
-            <img src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/v1615813908/contentservice/banner1.jpeg_rJKM6A3X_.jpg" alt="Chicago">
-        </div>
-
-        <div class="item">
-            <img src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/v1616149576/contentservice/NEW-COKE.jpg_BJeInezV_.jpg" alt="New York">
-        </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left spanCustomDesign"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right spanCustomDesign"></span>
-        <span class="sr-only">Next</span>
-    </a>
-    </div>
+    <div class="wrapper">
+				<ul id="sb-slider" class="sb-slider">
+					<li>
+						<a href="#" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/elfclicks-6f3b2.appspot.com/o/sliderImg%2FNEW-COKE.jpg_BJeInezV_.jpg?alt=media&token=4097f9dc-f8ca-47df-8d53-459bd8dd50c2" alt="image1"/></a>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/elfclicks-6f3b2.appspot.com/o/sliderImg%2FHPINK.jpg_ByE9KieNu.jpg?alt=media&token=e523abb6-224c-45f7-b13b-edbcafa68a45" alt="image2"/></a>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/elfclicks-6f3b2.appspot.com/o/sliderImg%2Fbanner7.jpg_SJfBaAn7_.jpg?alt=media&token=c864c00c-ed18-46e1-997f-26680d0fb40e" alt="image1"/></a>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/elfclicks-6f3b2.appspot.com/o/sliderImg%2FiPOWER-BANNER-1.jpg_HJ1fp8vVO.jpg?alt=media&token=e8450016-9785-4dde-92ca-64fb6cc7973c" alt="image1"/></a>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/elfclicks-6f3b2.appspot.com/o/sliderImg%2FintelBanner.jpg_HkMlb1qVd.jpg?alt=media&token=b5c798e3-cbed-42e1-bf33-73b224977d7e" alt="image1"/></a>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/elfclicks-6f3b2.appspot.com/o/sliderImg%2Flaptop.png_ry-L1Y5P4O.png?alt=media&token=a46b6e92-69e2-40f5-a261-b3e3f1e5876a" alt="image1"/></a>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/elfclicks-6f3b2.appspot.com/o/sliderImg%2Fnivea.jpg_H1zuQn_m_.jpg?alt=media&token=794d8b77-d700-4c14-8539-a03ae607f121" alt="image1"/></a>
+					</li>
+				</ul>
+				<div id="nav-arrows" class="nav-arrows">
+					<a href="#">Next</a>
+					<a href="#">Previous</a>
+				</div>
+                <div id="nav-options" class="nav-options">
+					<span id="navPlay">Play</span>
+					<span id="navPause">Pause</span>
+				</div>
+		</div>
   </div>
 
   
@@ -148,7 +148,7 @@
     </div>
 </section>
 
-<section class="container">
+<section class="container animate__animated animate__fadeInUp">
     <div class="some_image_section">
         <div class="row">
             <div class="col-md-2 col-sm-4 col-12">

@@ -29,6 +29,74 @@
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./components/Homepage/slider/js/jquery.slicebox.js"></script>
+    <script type="text/javascript">
+			$(function() {
+				
+				var Page = (function() {
+
+					var $navArrows = $( '#nav-arrows' ).hide(),
+						$navOptions = $( '#nav-options' ).hide(),
+						$shadow = $( '#shadow' ).hide(),
+						slicebox = $( '#sb-slider' ).slicebox( {
+							onReady : function() {
+
+								$navArrows.show();
+								$navOptions.show();
+								$shadow.show();
+
+							},
+							orientation : 'h',
+							cuboidsCount : 3
+						} ),
+						
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							// add navigation events
+							$navArrows.children( ':first' ).on( 'click', function() {
+
+								slicebox.next();
+								return false;
+
+							} );
+
+							$navArrows.children( ':last' ).on( 'click', function() {
+								
+								slicebox.previous();
+								return false;
+
+							} );
+
+							$( '#navPlay' ).on( 'click', function() {
+								
+								slicebox.play();
+								return false;
+
+							} );
+
+							$( '#navPause' ).on( 'click', function() {
+								
+								slicebox.pause();
+								return false;
+
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+
+			});
+		</script>
 </body>
 
 </html>

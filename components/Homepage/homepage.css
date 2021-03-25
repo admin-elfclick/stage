@@ -16,7 +16,7 @@
 }
 
 a.sliderLeft__img > img {
-  width: 100%;
+  width: 74%;
   height: auto;
   border-radius: 10px;
 }
@@ -338,4 +338,18 @@ img.simpleProductBannerImg {
   font-size: 2rem;
   color: #02bfff;
   letter-spacing: 0.1rem;
+  text-align: left;
+}
+.sb-slider {
+  margin: 0 !important;
+}
+.sb-slider li > a img {
+  height: 329px !important;
+  width: 100% !important;
+}
+.nav-arrows a {
+  left: 80px;
+}
+.nav-arrows a:first-child {
+  right: 80px;
 }
